@@ -1,0 +1,3 @@
+condition_image: data/condition.png
+inversion_prompt: a canny edge map of a volkswagen beetle
+prompt: a cartoon of a volkswagen beetle

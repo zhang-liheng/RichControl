@@ -1,0 +1,15 @@
+erode: true
+unsharp: true
+restart: true
+S_noise: 1.0
+restart_list: {1.0: [5, 3, 2.0, 0.0, 0.0]}
+split_save_and_inj: true
+struct_inj_k: 0.0
+struct_inj_b: 0.4
+struct_inj_last: 0.6
+self_recurrence_times: 2
+# update prompt model settings if using a prompt model
+modify_prompt: false
+prompt_model_api: "YOUR_API_KEY"
+prompt_model_url: "YOUR_API_URL"
+prompt_model_name: "YOUR_MODEL_NAME"
