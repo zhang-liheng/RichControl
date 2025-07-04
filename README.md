@@ -93,5 +93,15 @@ If you use our code in your research, please cite the following work.
 
 ```bibtex
 
+@misc{zhang2025richcontrolstructureappearancerichtrainingfree,
+      title={RichControl: Structure- and Appearance-Rich Training-Free Spatial Control for Text-to-Image Generation}, 
+      author={Liheng Zhang and Lexi Pang and Hang Ye and Xiaoxuan Ma and Yizhou Wang},
+      year={2025},
+      eprint={2507.02792},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.02792}, 
+}
+
 ```
 
