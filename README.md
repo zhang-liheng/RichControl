@@ -1,12 +1,12 @@
 # RichControl: Structure- and Appearance-Rich Training-Free Spatial Control for Text-to-Image Generation
 
-<a href="https://zhang-liheng.github.io/rich-control"><img src="https://img.shields.io/badge/Project-Page-green"></a>
-<a href="https://youtu.be/yBESOlbruWU"><img src="https://img.shields.io/badge/YouTube-Video-yellow"></a> 
-<a href="https://arxiv.org/abs/2507.02792"><img src="https://img.shields.io/badge/arXiv-Paper-red"></a> 
+`<a href="https://zhang-liheng.github.io/rich-control"><img src="https://img.shields.io/badge/Project-Page-green">``</a>`
+`<a href="https://youtu.be/yBESOlbruWU"><img src="https://img.shields.io/badge/YouTube-Video-yellow">``</a>`
+`<a href="https://arxiv.org/abs/2507.02792"><img src="https://img.shields.io/badge/arXiv-Paper-red">``</a>`
 
-[Liheng Zhang](https://github.com/zhang-liheng/)<sup>\*</sup>, [Lexi Pang](https://github.com/LexiPang)<sup>\*</sup>, [Hang Ye](https://alvinyh.github.io/), [Xiaoxuan Ma](https://shirleymaxx.github.io/), [Yizhou Wang](https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm)<br>
-Peking University<br>
-<sup>*</sup>Equal contribution <br>
+[Liheng Zhang](https://github.com/zhang-liheng/)`<sup>`\*`</sup>`, [Lexi Pang](https://github.com/LexiPang)`<sup>`\*`</sup>`, [Hang Ye](https://alvinyh.github.io/), [Xiaoxuan Ma](https://shirleymaxx.github.io/), [Yizhou Wang](https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm)`<br>`
+Peking University`<br>`
+`<sup>`*`</sup>`Equal contribution `<br>`
 
 ![RichControl teaser figure](assets/teaser.png)
 
@@ -19,7 +19,7 @@ conda env create -f environment.yml
 conda activate richcontrol
 ```
 
-## Example generation
+## Example
 
 For example image generation, run
 
@@ -31,7 +31,7 @@ After that, in the directory `results` you should get something like
 
 ![Example result](assets/result.png)
 
-Feel free to add various images and create your own prompts for controllable generation! 
+Feel free to add various images and create your own prompts for controllable generation!
 
 Image input format can be found in `configs/image_config.yaml`.
 
@@ -41,6 +41,7 @@ Model configurations can be found in `configs/model_config.yaml`. Note that the 
 
 To download our dataset, click [here](https://drive.google.com/file/d/1ejDgx7DL-B4x-igQMv5lt8-XXD0eHuTG/view?usp=sharing). As described in the paper, the dataset comprises 150 image-prompt pairs spanning 7 condition types ("canny edge", "depth map", "HED edge", "normal map", "scribble drawing", "human pose", "segmentation mask") and 7 semantic categories ("animals": 58, "humans": 26, "objects": 20, "buildings": 16, "vehicles": 12, "scenes": 10, "rooms": 8).
 The dataset is organized as follows:
+
 ```
 images
   canny
@@ -67,7 +68,9 @@ images
     ...
   image_config_dataset.yaml
 ```
+
 For clarity, we split the entire dataset into 7 folders corresponding to 7 condition types. The file `data_prompt-driven.yaml` contains all metadata used in our evaluation experiments, where each entry includes the image file path, an inversion prompt, and a generation prompt:
+
 ```yaml
 - condition_image: canny/beetle_canny/condition.png
   inversion_prompt: a canny edge map of a volkswagen beetle
@@ -75,11 +78,11 @@ For clarity, we split the entire dataset into 7 folders corresponding to 7 condi
 - ...
 ...
 ```
+
 Although our method does not require DDIM inversion, we include the `inversion_prompt` field to facilitate comparisons with baseline methods that rely on DDIM inversion.
 Our dataset is based on datasets from prior work including [Ctrl-X](https://github.com/genforce/ctrl-x), [FreeControl](https://github.com/genforce/freecontrol), [Plug-and-Play](https://github.com/MichalGeyer/pnp-diffusers), and [ADE20K](https://ade20k.csail.mit.edu/). We gratefully acknowledge their contributions to the community.
- 
 
-## Contact 
+## Contact
 
 For any questions and discussions, please contact [Liheng Zhang](https://github.com/zhang-liheng) (zhangliheng@stu.pku.edu.cn).
 
@@ -104,4 +107,3 @@ If you use our code in your research, please cite the following work.
 }
 
 ```
-
