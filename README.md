@@ -1,12 +1,10 @@
 # RichControl: Structure- and Appearance-Rich Training-Free Spatial Control for Text-to-Image Generation
 
-`<a href="https://zhang-liheng.github.io/rich-control"><img src="https://img.shields.io/badge/Project-Page-green">``</a>`
-`<a href="https://youtu.be/yBESOlbruWU"><img src="https://img.shields.io/badge/YouTube-Video-yellow">``</a>`
-`<a href="https://arxiv.org/abs/2507.02792"><img src="https://img.shields.io/badge/arXiv-Paper-red">``</a>`
+<a href="https://zhang-liheng.github.io/rich-control"><img src="https://img.shields.io/badge/Project-Page-green"></a> <a href="https://youtu.be/yBESOlbruWU"><img src="https://img.shields.io/badge/YouTube-Video-yellow"></a> <a href="https://arxiv.org/abs/2507.02792"><img src="https://img.shields.io/badge/arXiv-Paper-red"></a>
 
-[Liheng Zhang](https://github.com/zhang-liheng/)`<sup>`\*`</sup>`, [Lexi Pang](https://github.com/LexiPang)`<sup>`\*`</sup>`, [Hang Ye](https://alvinyh.github.io/), [Xiaoxuan Ma](https://shirleymaxx.github.io/), [Yizhou Wang](https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm)`<br>`
-Peking University`<br>`
-`<sup>`*`</sup>`Equal contribution `<br>`
+[Liheng Zhang](https://github.com/zhang-liheng/)<sup>\*</sup>, [Lexi Pang](https://github.com/LexiPang)<sup>\*</sup>, [Hang Ye](https://alvinyh.github.io/), [Xiaoxuan Ma](https://shirleymaxx.github.io/), [Yizhou Wang](https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm)<br>
+Peking University<br>
+<sup>*</sup>Equal contribution <br>
 
 ![RichControl teaser figure](assets/teaser.png)
 
