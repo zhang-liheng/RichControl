@@ -80,13 +80,13 @@ For clarity, we split the entire dataset into 7 folders corresponding to 7 condi
 Although our method does not require DDIM inversion, we include the `inversion_prompt` field to facilitate comparisons with baseline methods that rely on DDIM inversion.
 Our dataset is based on datasets from prior work including [Ctrl-X](https://github.com/genforce/ctrl-x), [FreeControl](https://github.com/genforce/freecontrol), [Plug-and-Play](https://github.com/MichalGeyer/pnp-diffusers), and [ADE20K](https://ade20k.csail.mit.edu/). We gratefully acknowledge their contributions to the community.
 
-## Contact
-
-For any questions and discussions, please contact [Liheng Zhang](https://github.com/zhang-liheng) (zhangliheng@stu.pku.edu.cn).
-
 ## Acknowledgement
 
 Our code is inspired by repositories including [Ctrl-X](https://github.com/genforce/ctrl-x), [Plug-and-Play](https://github.com/MichalGeyer/pnp-diffusers) and [Restart sampling](https://github.com/Newbeeer/diffusion_restart_sampling). We thank their contributors for sharing the valuable resources with the community.
+
+## Contact
+
+For any questions and discussions, please contact [Liheng Zhang](https://github.com/zhang-liheng) (zhangliheng@stu.pku.edu.cn).
 
 ## Reference
 
